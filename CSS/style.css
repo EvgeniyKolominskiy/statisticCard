@@ -5,3 +5,77 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+.cards > div {
+	position: relative;
+	display: inline-block;
+	width: 435px;
+	height: 270px;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.circleBottom {
+	position: absolute;
+	left: 224px;
+	top: 130px;
+	width: 240px;
+	height: 240px;
+	border-radius: 120px;
+	background: #fff;
+	opacity: 0.3;
+}
+
+.circleTop {
+	position: absolute;
+	width: 240px;
+	height: 240px;
+	border-radius: 120px;
+	left: 300px;
+	bottom: 60px;
+	background: #fff;
+	opacity: 0.3;
+}
+
+.cards {
+	display: block;
+	position: absolute;
+	top: 250px;
+	width: 100%;
+}
+
+.paragraph {
+	position: absolute;
+	left: 50px;
+	top: 55px;
+
+	font-family: roboto, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0.9;
+}
+	p:nth-child(2) {
+		font-size: 30px;
+		margin: 30px 0 68px 0;
+	}
+
+.weeklySales {
+	background: linear-gradient(0.25turn, #FFBE99, #FF769A);
+
+}
+
+.weeklyOrders {
+	background: linear-gradient(0.25turn, #8ECAF7, #0C82DD);
+
+}
+
+.visitorsOnline {
+	background: linear-gradient(0.25turn, #7ED9D1, #33D8C0);
+
+}
+
+svg {
+	position: absolute;
+	left: 307px;
+	top: 0;
+}
